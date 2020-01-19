@@ -1,0 +1,44 @@
+baseURL: '/'
+languageCode: en-us
+title: Sign Up for The Starbeam Project!
+theme: pulp
+
+enableRobotsTXT: true
+publishDir: docs
+newContentEditor: ''
+googleAnalytics: 'UA-156198093-2'
+canonifyurls: true
+hasCJKLanguage: true
+taxonomies:
+  series: series
+params:
+  author: The Starbeam Project
+  avatar: images/Logo.png
+  favicon: favicon.ico
+  description: |2-
+            Welcome to The Starbeam Project's registration page.  I am currently brain-deep developing this sucker.  If you'd like to get notified when it's ready to try out, submit your email address below and I'll contact you when it's ready! -- <a href="https://twitter.com/MikeTripleE">Mike-EEE</a>
+        
+  publicationYear: '2020'
+  custom_css: [css/site.css]
+outputs:
+  section:
+    - JSON
+    - HTML
+menu:
+  main:
+    - identifier: blog
+      pre: <i class='fa fa-book-open fa-lg'></i>
+      url: https://blog.starbeam.one/
+      weight: 10
+    - identifier: twitter
+      pre: <i class='fab fa-twitter fa-lg'></i>
+      url: 'https://twitter.com/StarbeamOne'
+      weight: 20
+    - identifier: github
+      pre: <i class='fab fa-github fa-lg'></i>
+      url: 'https://github.com/StarbeamOne'
+      weight: 30
+    - identifier: email
+      pre: <i class='fa fa-envelope fa-lg'></i>
+      url: 'mailto:transmit+register@starbeam.one'
+      weight: 40

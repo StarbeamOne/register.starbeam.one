@@ -1,0 +1,21 @@
+<footer>
+  <p>
+  &copy; {{ .Site.Params.publicationYear }} {{ .Site.Params.Author }}.
+  Powered by <a href="https://gohugo.io/">Hugo</a>  using the <a href="https://github.com/koirand/pulp/">pulp</a> theme.
+	<div>
+		Icon made by <a href="https://www.flaticon.com/authors/google" title="Google">Google</a> via <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> | <a href="https://www.miplace.org/" target="_blank">Made in Michigan</a>
+	</div>  
+  </p>
+  
+   <!-- navigation -->
+        <nav>
+          <ul>
+            {{ range .Site.Menus.main }}
+            <li><a href="{{ .URL }}" aria-label="{{ .Identifier }}">{{ .Pre }}<br>{{ .Name }}</a></li>
+            {{ end }}
+          </ul>
+        </nav>
+</footer>
+{{- range .Site.Params.custom_js -}}
+<script src="{{ . }}"></script>
+{{ end }}

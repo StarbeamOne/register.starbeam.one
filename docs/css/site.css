@@ -1,0 +1,52 @@
+#mc_embed_signup{ background:#F7FFF7; clear:left; font:14px Helvetica,Arial,sans-serif; border: 2px solid #0D1321; margin: 50px auto; }
+#mc_embed_signup .button {background-color: #3D7DC5; }
+#mc_embed_signup #mce-success-response { color: #094074; margin-top: 0px; margin-bottom: 20px; }
+
+#mc_embed_signup #mce-error-response { color:#bf3019; margin-top: 0px; margin-bottom: 20px; }
+
+#mc_embed_signup div#mce-responses { padding: 0em; margin: 0%; }
+
+#profileContainer {
+	min-height: unset;
+	margin-top: 50px;
+}
+
+body {
+	font-family: Lato;
+	font-size: 1.25em;
+	background-color: #B5DCE8;
+	color: #094074;
+}
+
+a:link {
+	color: #3D7DC5;
+}
+
+a:visited {
+	color: #3D7DC5;
+}
+
+header .avatar {
+	display: inline-block;
+	
+	border: 1px solid #3D7DC5;
+	padding: 10px;
+	border-radius: 150px;
+	position: unset;
+}
+
+header .avatar .avatarMask {
+	display: block;
+	position: unset;
+	left: unset;
+	right: unset;
+	margin: unset;
+}
+
+h1, h2, h3 {
+	font-family: Play, sans-serif;
+
+}
+
+nav ul {
+}
