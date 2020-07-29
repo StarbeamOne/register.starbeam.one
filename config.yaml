@@ -16,7 +16,7 @@ params:
   avatar: images/Logo.png
   favicon: favicon.ico
   description: |2-
-            Welcome to The Starbeam Project's registration page.  I am currently brain-deep developing this sucker.  If you'd like to get notified when it's ready to try out, submit your email address below and I'll contact you when it's ready! -- <a href="https://twitter.com/MikeTripleE">Mike-EEE</a>
+            Welcome to The Starbeam Project's registration page.  I am currently brain-deep developing this sucker.  If you'd like to get notified when it's ready to try out, submit your email address below and I'll contact you when it's ready! -- <a href="https://twitter.com/Mike_E_angelo">Mike-E-angelo</a>
         
   publicationYear: '2020'
   custom_css: [css/site.css]
