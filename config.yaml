@@ -1,6 +1,6 @@
 baseURL: '/'
 languageCode: en-us
-title: Sign Up for The Starbeam Project!
+title: Sign Up for starbeam.one!
 theme: pulp
 
 enableRobotsTXT: true
@@ -12,11 +12,13 @@ hasCJKLanguage: true
 taxonomies:
   series: series
 params:
-  author: The Starbeam Project
+  author: starbeam.one
   avatar: images/Logo.png
   favicon: favicon.ico
   description: |2-
-            Welcome to The Starbeam Project's registration page.  I am currently brain-deep developing this sucker.  If you'd like to get notified when it's ready to try out, submit your email address below and I'll contact you when it's ready! -- <a href="https://twitter.com/Mike_E_angelo">Mike-E-angelo</a>
+            Welcome to starbeam.one's registration page.  If you'd like to get notified when starbeam.one is ready to try out, submit your email address below and I'll contact you when it's ready! -- <a href="https://twitter.com/Mike_E_angelo">Mike-E-angelo</a>
+            
+            <p>(<a href="https://burnermail.io/" target="_blank">Make sure you use a burner address!</a>)</p>
         
   publicationYear: '2021'
   custom_css: [css/site.css]
