@@ -20,7 +20,7 @@ params:
             
             <p>(<a href="https://burnermail.io/" target="_blank">Make sure you use a burner address!</a>)</p>
         
-  publicationYear: '2021'
+  publicationYear: '2022'
   custom_css: [css/site.css]
 outputs:
   section:
