@@ -1,2 +1,4 @@
 # register.starbeam.one
-Simple registration page for The Starbeam Project
+Formerly the registration page for the preview, this project now serves as the www redirect to the alpha:
+
+https://alpha.starbeam.one
